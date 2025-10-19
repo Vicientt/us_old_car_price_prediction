@@ -93,7 +93,7 @@ def apply_custom_styling():
 def load_model_and_preprocessor():
     try:
         preprocessor_path = os.path.join('models', 'preprocessor.pkl')
-        model_path = os.path.join('models', 'best_xgb_model.pkl')
+        model_path = os.path.join('models', 'ridge_model.pkl')
         
         preprocessor = joblib.load(preprocessor_path)
         model = joblib.load(model_path)
