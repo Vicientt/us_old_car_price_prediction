@@ -4,3 +4,8 @@ data/
 data_csv/
 *.csv
 *.npy
+__pycache__
+.python-version
+car_price_prediction.egg-info
+.DS_Store
+data_clean.csv
